@@ -1,0 +1,126 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* nav-bar */
+.navbar .nav-item {
+  text-transform: capitalize;
+}
+
+/* header */
+.gradient {
+  background: rgb(0, 97, 242);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 97, 242, 1) 0%,
+    rgba(105, 0, 199, 1) 100%
+  );
+}
+
+.page-header {
+  margin-top: 5rem;
+  padding-top: 1rem;
+  font-size: 1.25rem;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* services */
+.services .card .card-img {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+}
+
+.services .card .card-img.consultorio {
+  background-image: url("../img/consultorio-veterinario.jpg");
+}
+
+.services .card .card-img.consulta {
+  background-image: url("../img/consulta.webp");
+}
+
+.services .card .card-img.electro {
+  background-image: url("../img/cardiologia.jpg");
+}
+
+.form-control {
+  outline: none;
+  box-shadow: none !important;
+  height: 50px;
+}
+
+.form-control:focus {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
+}
+
+.form-control:focus,
+.form-control:active {
+  outline: none;
+}
+
+.suscribe .btn {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2) !important;
+  height: 50px;
+}
+
+/* Footer/Contact */
+.site-footer {
+  padding-bottom: 1em;
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin-bottom: 0;
+}
+
+.site-footer a {
+  color: var(--bs-body-color);
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.site-footer h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1.8rem;
+  margin-top: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.site-footer .footer-link li {
+  line-height: 1.5;
+  margin-bottom: 0.9rem;
+}
+
+.footer-social a {
+  line-height: 0;
+  border-radius: 50%;
+  margin: 0 5px 5px 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.footer-social a:hover {
+  background-color: var(--bs-body-color);
+  color: white;
+}
+
+.footer-social .bi::before {
+  margin-top: 8px;
+}
